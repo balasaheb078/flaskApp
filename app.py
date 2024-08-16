@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request, jsonify
-import google.generativeai as genai
+# import google.generativeai as genai
+import google.generativelanguage as genai
+
 import pyttsx3
 import speech_recognition as sr
 from gtts import gTTS
